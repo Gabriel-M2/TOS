@@ -33,8 +33,9 @@ export function NavBar() {
         </nav>
 
 
-        
+            <span className="">
 
+            </span>
 
         </div>
     )
