@@ -1,7 +1,17 @@
 module.exports = {
-  content: ["./src/**/*.{tsx}"],
+  content: ["./src/**/*.tsx"],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        orange:{
+          500: '#FF8F3F'
+        }
+      },
+      fontFamily:{
+        'poppins':['Poppins'],
+        'roboto':['Roboto']
+      }
+    },
   },
   plugins: [],
 }
