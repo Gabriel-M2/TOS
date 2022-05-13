@@ -17,9 +17,20 @@ export function NavBar() {
             
             <div className="sm:hidden flex items-center">
                 
-                <Popover className="flex-col">
-                    <Popover.Panel className="bg-zinc-800 ">
-                        <Links />
+                <Popover className="">
+                    <Popover.Panel className="bg-zinc-800 absolute top-24 right-4 p-5 rounded-md">
+                        <span className="flex m-2 items-center  p-3  px-5 rounded-full group hover:bg-orange-500 transition-all ease-in-out delay-150  cursor-pointer border-2 border-orange-500">
+                        SOBRE-NÓS <Bus className="w-6 h-6 ml-3" />
+                        
+                        </span>
+                        <span className="flex m-2 items-center p-3 my-4 px-5 rounded-full hover:bg-orange-500 transition-all ease-in-out delay-150  cursor-pointer border-2 border-orange-500">
+                            SERVIÇOS <CaretUp  className="w-6 h-6 ml-3 hover:rotate-180 hover:transition-all ease-in-out delay-150" />
+                            
+                        </span>
+                        <span className="flex m-2  items-center p-3  px-5 rounded-full hover:bg-orange-500 transition-all ease-in-out delay-150  cursor-pointer border-2 border-orange-500">
+                            CONTATE-NOS <ChatDots className="w-6 h-6 ml-3" />
+                            
+                        </span>
                     </Popover.Panel>
 
                     <Popover.Button className="absolute top-5  right-2">
