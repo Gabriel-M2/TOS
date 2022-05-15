@@ -8,7 +8,7 @@ export function Sobre(){
             
             <div className="flex  justify-center">
 
-                <span className="text-zinc-300 absolute top-[55rem] inter2:top-[58rem] sm:top-[40rem] text-4xl sm:text-5xl sm:flex animate">
+                <span className="text-zinc-300 absolute top-[55rem] inter2:top-[58rem] sm:top-[40rem] text-3xl sm:text-5xl sm:flex animate ">
                     O QUE OFERECEMOS <span className="text-orange-500 animate-bounce ml-4 py-1">?</span>  
                 </span>
 

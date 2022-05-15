@@ -7,7 +7,8 @@ module.exports = {
         'medium': '830px',
         'inter' : '800px',
         'inter2' : '670px',
-        'extra' : '2750px'
+        'extra' : '2750px',
+        'xs' : '2750px'
     },
     extend: {
       keyframe:{
