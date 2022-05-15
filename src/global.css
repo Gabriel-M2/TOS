@@ -3,9 +3,6 @@
 @tailwind utilities;
 
 body, html{
-    @apply w-screen h-screen m-0 bg-zinc-900
+    @apply w-screen h-screen m-0 bg-zinc-900 
 }
 
-nav{
-    /* @apply flex  */
-}
