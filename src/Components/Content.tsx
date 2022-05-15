@@ -1,4 +1,4 @@
-import bus from './../Assets/Bus.svg'
+import bus from './../Assets/Busao.svg'
 
 export function Content() {
 
