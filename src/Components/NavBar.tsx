@@ -7,7 +7,7 @@ import ReactDOM from "react-dom";
 
 export function NavBar() {
     return (
-        <div>
+        <div className="z-20">
         <nav className="bg-zinc-800 w-full flex h-16 sm:h-20 items-center drop-shadow-lg  text-zinc-100  ">
             
                 

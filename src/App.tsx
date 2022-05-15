@@ -5,10 +5,10 @@ import { Sobre } from './Components/Sobre'
 
 function App() {
   return (
-    <div>
-      <Content />
+    <div className="scroll-smooth">
+      <Content  />
       <NavBar/>
-      {/* <Sobre /> */}
+      <Sobre />
     </div>
   )
 }

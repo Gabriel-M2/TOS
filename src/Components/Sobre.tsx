@@ -1,13 +1,23 @@
+import { ArrowCircleDown } from "phosphor-react";
 
 
 
 export function Sobre(){
     return (
-        <div>
+        <div className="scroll-smooth">
             
-            <div className="bg-zinc-400 w-72 h-2 absolute left-0 bottom-2">
+            <div className="flex  justify-center">
+
+                <span className="text-zinc-300 absolute top-[55rem] inter2:top-[58rem] sm:top-[40rem] text-4xl sm:text-5xl sm:flex animate">
+                    O QUE OFERECEMOS <span className="text-orange-500 animate-bounce ml-4 py-1">?</span>  
+                </span>
 
             </div>
+
+
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
         </div>
     )
 }
+

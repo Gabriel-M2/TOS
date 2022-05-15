@@ -4,7 +4,10 @@ module.exports = {
 
     screens:{
         'sm': '660px',
-        'medium': '830px'
+        'medium': '830px',
+        'inter' : '800px',
+        'inter2' : '670px',
+        'extra' : '2750px'
     },
     extend: {
       keyframe:{
