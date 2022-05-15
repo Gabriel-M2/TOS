@@ -6,8 +6,8 @@ import { Sobre } from './Components/Sobre'
 function App() {
   return (
     <div>
-      <NavBar/>
       <Content />
+      <NavBar/>
       {/* <Sobre /> */}
     </div>
   )
