@@ -8,7 +8,7 @@ import ReactDOM from "react-dom";
 export function NavBar() {
     return (
         <div className="z-20">
-        <nav className="bg-zinc-800 w-full flex h-16 sm:h-20 items-center drop-shadow-lg  text-zinc-100  ">
+        <nav className="bg-zinc-800 w-screen flex h-16 sm:h-20 items-center drop-shadow-lg  text-zinc-100  ">
             
                 
             <img src={logo} className="m-5 w-28 cursor-pointer hover:w-32 transition-all  "></img>
