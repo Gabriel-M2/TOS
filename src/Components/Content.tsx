@@ -14,13 +14,13 @@ export function Content() {
                                 CANSADO DE FICAR 
                             </h1>
                             <h1 className="py-1 pt-2"> 
-                                ESPERANDO HORAS NO PONTO DE ÔNIBUS?
+                                ESPERANDO HORAS NO PONTO DE ÔNIBUS ?
                             </h1>
                             <div className="flex my-6 ">
                             <h1 className="py-1 pt-2">
                                 TENTE 
                             </h1>
-                            <h1 className="bg-gradient-to-r from-pink-500 to-violet-500 ml-6 p-2  rounded text-white tracking-widest">
+                            <h1 className="bg-gradient-to-r from-pink-500 to-violet-500 ml-6 p-2  rounded text-white tracking-widest hover:text-4xl sm:hover:text-6xl transition-all">
                                 TOS
                             </h1>
                             </div>
