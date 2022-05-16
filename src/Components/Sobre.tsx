@@ -22,11 +22,11 @@ export function Sobre(){
             </div>
 
             <div className="absolute top-[70rem]  legenda:flex ">
-                <img src={mapa} alt="" className="w-[40rem] sm:ml-10 inter:ml-[7rem] rounded-md border-2 border-zinc-600 " />
+                <img src={mapa} alt="" className="w-[95vw] sm:ml-10 inter:ml-[7rem] rounded-md border-2 border-zinc-600 " />
 
                 <div className="flex-col sm:ml-20  break:ml-0">
                     <span className="text-zinc-300   sm:text-xl break:text-4xl font-roboto relative top-10 left-6 break:ml-10   "> WHAT IS LOREM IPSUM ? </span>
-                   <div className="ml-6 break:ml-16 w-[32rem]  break:w-[50rem]">
+                   <div className="ml-6 break:ml-16 w-[90vw]  break:w-[50rem]">
                         <span className="relative top-20 text-sm text-zinc-400 break-word ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
                    </div>
                 </div>
