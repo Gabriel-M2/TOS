@@ -5,7 +5,7 @@ import mapa from './../Assets/mapa.png'
 
 export function Sobre(){
     return (
-        <div className="scroll-smooth">
+        <div className="scroll-smooth extra:flex extra:justify-center">
             
             <div className="flex  justify-center">
 

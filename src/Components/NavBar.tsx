@@ -11,7 +11,7 @@ export function NavBar() {
         <nav className="bg-zinc-800 w-screen flex h-16 sm:h-20 items-center drop-shadow-lg  text-zinc-100  ">
             
                 
-            <img src={logo} className="m-5 w-28 cursor-pointer hover:w-32 transition-all  "></img>
+            <img src={logo}  className="m-5 w-28 cursor-pointer hover:w-32 transition-all  "></img>
 
             <div className="absolute top-2 right-2">
                 <Links />
