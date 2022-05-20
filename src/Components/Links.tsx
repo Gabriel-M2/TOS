@@ -1,4 +1,4 @@
-import { Bus, CaretUp, ChatDots, List, MapPin } from "phosphor-react";
+import { Bus, CaretUp, ChatDots, List, MapPin, UserCircle } from "phosphor-react";
 import { Popover } from '@headlessui/react'
 
 
@@ -76,6 +76,27 @@ export function Links() {
                     CONTATE-NOS <ChatDots className="w-6 h-6 ml-3" />
                     
                 </span>
+
+                {/* <div className="flex  ">
+                    <span className="items-center justify-center p-4 px-5 gap-2">
+                    <ChatDots className="w-8
+                     h-8 
+                     ml-3 
+                     hover:w-10 
+                     hover:h-10 
+                     hover:text-orange-500 
+                     cursor-pointer 
+                     transition-all " />
+                    </span>
+
+                    <span className="items-center justify-center p-4 px-5 gap-2" >
+                                <UserCircle className="w-8 h-8 ml-3 hover:w-10 hover:h-10 hover:text-orange-500 cursor-pointer transition-all"/>
+                    </span>
+                </div> */}
+
+
+
+
                
             </div>
         
